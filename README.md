@@ -6,8 +6,8 @@ Build:
     
 Start container
 
-    docker run -it -p 8888:8888 -v $(pwd):/notebooks myjupyter
+    docker run -d -p 8888:8888 -v $(pwd):/notebooks myjupyter
     
 Or with password
 
-    docker run -it -p 8888:8888 -v $(pwd):/notebooks myjupyter PASSWORD
+    docker run -d -p 8888:8888 -v $(pwd):/notebooks myjupyter PASSWORD

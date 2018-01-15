@@ -15,4 +15,4 @@ Or with password
 Or run it in a network
 
     docker network create --subnet=172.18.1.0/24 mynet
-    docker run -d --net mynet --ip 172.18.1.2 -v $(pwd)/nbs:/notebooks --restart=always myjupyter PASSWORD
+    docker run -d --net mynet --ip 172.18.1.101 -v $(pwd)/nbs:/notebooks --restart=always myjupyter PASSWORD
